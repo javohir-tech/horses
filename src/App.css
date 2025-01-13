@@ -1,0 +1,47 @@
+/* navbar */
+.nav-link{
+  font-weight: 500 !important;
+  font-size: 13px !important;
+  color: rgba(32, 32, 32, 1) !important;
+  margin-right: 3px;
+  padding: 5px;
+  border-bottom: 2px solid transparent !important;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover{
+  border-color: rgba(0, 129, 57, 1) !important;
+}
+
+.icons{
+  color: rgba(0, 129, 57, 1);
+  font-size: 16px;
+}
+
+/*banner*/
+
+.banner-header{
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 60px;
+}
+
+.banner-description{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: rgba(100, 100, 100, 1);
+}
+
+.banner-btn{
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  line-height: 32px !important;
+}
+
+.banner{
+  background: url(./assets/Images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
