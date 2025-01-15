@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //components
 import MainNavbar from './Components/MainNavbar';
 import Banner from './Components/Banner';
+import About from './Components/About';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         {/* banner section */}
         <Banner />
       </div>
+      <About/>
     </>
   )
 }
